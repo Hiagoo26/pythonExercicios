@@ -1,0 +1,10 @@
+#Dissecando uma variável
+algo = input('Digite alguma coisa: ')
+print('O tipo primitivo é', type(algo))
+print('Tem espaços: {} ' .format(algo .isspace()))
+print('É um numero: {} ' .format(algo .isnumeric()))
+print('É alfabetico: {} ' .format(algo .isalpha()))
+print('É alfanumerico: {} ' .format(algo .isalnum()))
+print('É em letra maiúscula: {} ' .format(algo .isupper()))
+print('É em letra minúscula: {} ' .format(algo .islower()))
+print('É capitalizada: {} ' .format(algo .istitle()))
